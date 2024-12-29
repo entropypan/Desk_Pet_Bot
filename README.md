@@ -37,7 +37,7 @@
 sudo nano /etc/dphys-swapfile
 ```
 
-安裝、解壓，其中最後一步會執行一個多小時，請耐心等待
+安裝+解壓，其中最後一步會執行一個多小時，請耐心等待
 ```bash
 sudo apt-get install build-essential cmake pkg-config
 
