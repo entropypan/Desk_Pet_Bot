@@ -2,7 +2,7 @@
 
 <img src="assets/sosorry.png">
 
-## Table of Contents
+## 目錄
 
 -   [專案介紹](#專案介紹)
 -   [硬體介紹](#硬體介紹)
