@@ -29,7 +29,7 @@
 /解釋組合
 
 ## 準備
-首先，確保樹梅派4B能正常運作，且具備Raspbian Buster OS，並確保Python版本為3
+首先，具備Raspbian Buster OS之樹梅派4B，並確保內含Python版本為3
 
 ### 安裝Open-CV和Mediapipe
 用下列指令將CONF_SWAPSIZE = 100變更為CONF_SWAPSIZE=2048
