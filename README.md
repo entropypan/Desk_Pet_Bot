@@ -1,6 +1,6 @@
 # Desk Pet Bot
 
-
+<img src="assets/sosorry.png" height="200">
 
 ## Table of Contents
 
@@ -22,5 +22,3 @@
 
 
 ## Function
-
-
