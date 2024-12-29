@@ -30,6 +30,7 @@
 
 ## 準備
 首先，確保樹梅派4B能正常運作，且具備Raspbian Buster OS
+
 並確保Python版本為3
 
 ### 安裝Open-CV和Mediapipe
