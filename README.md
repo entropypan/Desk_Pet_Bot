@@ -1,6 +1,6 @@
 # Desk Pet Bot
 
-<img src="assets/sosorry.png" height="800">
+<img src="assets/sosorry.png">
 
 ## Table of Contents
 
