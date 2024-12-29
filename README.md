@@ -4,21 +4,40 @@
 
 ## Table of Contents
 
--   [Introduction](#introduction)
--   [Setup](#setup)
--   [Hardware](#hardware)
--   [Function](#function)
+-   [專案介紹](#專案介紹)
+-   [硬體介紹](#硬體介紹)
+-   [準備](#準備)
+-   [功能和程式](#功能和程式)
+-   [參考資料](#參考資料)
 
-## Introduction
+## 專案介紹
+
+以樹梅派為基礎做一個小型的動物形 bot，可以藉由做出手勢或說話跟此桌面寵物互動。
+
+### 專案緣由
+
+有些人對真實動物的皮毛會過敏，又或者是家人不同意、擔心照顧麻煩、住處規定禁止等理由，因而不能養許多熱門的寵物，因此設計此桌面寵物來滿足這部分人的需求。本次採用了 AI 手勢辨識和語音聲控，讓跟寵物間的互動更加真實。
+
+## 硬體介紹
+
+### 材料清單
+
+* Rasberry Pi 4 x 1
+* Rasberry Pi Camera Module x 1
+* Rasberry Pi Screen Module x 1
+* 麥克風 x 1
+* 音響組 x 1
+* ...
+
+### 硬體組成
+
+
+## 準備
+
+首先，確保
+
+## 功能和程式
 
 
 
-## Setup
-
-
-
-## Hardware
-
-
-
-## Function
+## 參考資料
