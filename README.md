@@ -1,5 +1,6 @@
 # Desk Pet Bot
 
+<img src="assets/problem.png">
 <img src="assets/sosorry.png">
 
 ## 目錄
