@@ -7,12 +7,15 @@
 -   [專案介紹](#專案介紹)
 -   [硬體介紹](#硬體介紹)
 -   [準備](#準備)
--   [功能和程式](#功能和程式)
+-   [功能](#功能)
+-   [影片](#影片)
+-   [未來展望](#未來展望)
 -   [參考資料](#參考資料)
 
 ## 專案介紹
 原本想以樹梅派為基礎做一個小型的動物形 bot，可以藉由做出手勢或說話跟此桌面寵物互動。
 後因製作時產生不明問題(如圖)導致一段時間空窗期，簡化成桌面管家機器人。
+
 <img src="/assets/problem.png">
 
 ## 硬體介紹
@@ -81,14 +84,30 @@ sudo apt install mpg321
 sudo pip3 install numpy --upgrade --ignore-installed
 ```
 
-## 功能和程式
+## 功能
 接下來以0代表彎曲、1代表伸直，五個數字依序從拇指至小指
 * 手指比「5」，即11111：顯示現在時間
 * 手指比「1」，即01000：顯示未來8小時最高溫度和最低溫度，以及降雨機率
 * 手指單比小指，即00001：撥放一小段音樂
 * 手指單比中指，即00100：終止音樂
 * 手指比「3」，即01110：開始三分鐘計時器，用來幫泡麵計時 (影片中僅以10秒示範)
-* 手指比「OK」，即00111：在計時器歸零開始響時，告知管家關閉鬧鐘
+* 手指比「OK」，即00111：在計時器歸零開始不停響時，告知管家關閉鬧鐘
+
+
+## 影片
+[YT連結](https://youtu.be/iQZb3I2RjcA)
+
+
+## 未來展望
+* 從簡易的管家形改回四腳寵物形，並增加寵物功能
+* 新增藍芽連線，用距離縮短當作喚醒功能
+* 處理好本次失敗的語音控制和手勢控制間互搶控制權導致程式崩潰，可能要寫好Threading
+* 連接生成式AI，加入語音聊天功能
 
 ## 參考資料
-/參考資料堆
+* [Mediapipe手勢辨識](https://steam.oxxostudio.tw/category/python/ai/ai-mediapipe-gesture.html)
+* [Mediapipe手勢辨識-2](https://www.youtube.com/watch?v=a7B5EZVHHkw)
+* [天氣取得](https://steam.oxxostudio.tw/category/python/spider/forecast.html)
+* [2x16 LCD](https://www.youtube.com/watch?v=DHbLBTRpTWM)
+* [小森平的免費下載音效](https://taira-komori.jpn.org/freesoundtw.html)
+* [stackoverflow幫助排除bug](https://stackoverflow.com/)
