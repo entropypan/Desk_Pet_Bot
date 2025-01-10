@@ -14,6 +14,7 @@
 
 ## 專案介紹
 原本想以樹梅派為基礎做一個小型的動物形 bot，可以藉由做出手勢或說話跟此桌面寵物互動。
+
 後因製作時產生不明問題(如圖)導致一段時間空窗期，簡化成桌面管家機器人。
 
 <img src="/assets/problem.png">
@@ -90,17 +91,17 @@ sudo pip3 install numpy --upgrade --ignore-installed
 
 接下來以0代表彎曲、1代表伸直，五個數字依序從拇指至小指
 * 手指比「5」，即11111：顯示現在時間
-<img src="/assets/time.png">
+<img src="/assets/time.jpg">
 * 手指比「1」，即01000：顯示未來8小時最高溫度和最低溫度，以及降雨機率
-<img src="/assets/weather.png">
+<img src="/assets/weather.jpg">
 * 手指單比小指，即00001：撥放一小段音樂
-<img src="/assets/play.png">
+<img src="/assets/play.jpg">
 * 手指單比中指，即00100：終止音樂
-<img src="/assets/stop.png">
+<img src="/assets/stop.jpg">
 * 手指比「3」，即01110：開始三分鐘計時器，用來幫泡麵計時 (影片中僅以10秒示範)
-<img src="/assets/timer.png">
+<img src="/assets/timer.jpg">
 * 手指比「OK」，即00111：在計時器歸零開始不停響時，告知管家關閉鬧鐘
-<img src="/assets/ok.png">
+<img src="/assets/ok.jpg">
 
 
 ## 影片
