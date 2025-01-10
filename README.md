@@ -1,6 +1,6 @@
 # Desk Pet Bot
 
-<img src="photo.jpg">
+<img src="/assets/photo.jpg">
 
 ## 目錄
 
