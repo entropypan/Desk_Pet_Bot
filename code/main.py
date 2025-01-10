@@ -16,7 +16,7 @@ from pydub.playback import play
 from multiprocessing import Process
 
 ### weather ###
-API_KEY = 'CWA-2E34665A-4550-4343-A02A-002CC4525359'
+API_KEY = '' # !!! 
 url = 'https://opendata.cwa.gov.tw/fileapi/v1/opendataapi/F-C0032-001?Authorization='+API_KEY+'&downloadType=WEB&format=JSON'
 wdata = requests.get(url)
 wdata_json = wdata.json()
