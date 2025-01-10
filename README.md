@@ -106,6 +106,7 @@ sudo pip3 install numpy --upgrade --ignore-installed
 
 ## 影片
 [YT連結](https://youtu.be/iQZb3I2RjcA)
+
 *背景有家人玩線上遊戲之聲音
 
 
