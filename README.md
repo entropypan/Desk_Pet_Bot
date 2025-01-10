@@ -29,6 +29,7 @@
 ### 硬體組成
 <img src="/assets/hard.png">
 
+
 ## 準備
 首先，具備Raspbian Buster OS之樹梅派4B，並確保內含Python版本為3
 
@@ -85,6 +86,8 @@ sudo pip3 install numpy --upgrade --ignore-installed
 ```
 
 ## 功能
+**請記得將程式中API_KEY換成自己的API，可以參考本文最後天氣功能和API取得**
+
 接下來以0代表彎曲、1代表伸直，五個數字依序從拇指至小指
 * 手指比「5」，即11111：顯示現在時間
 * 手指比「1」，即01000：顯示未來8小時最高溫度和最低溫度，以及降雨機率
@@ -101,13 +104,13 @@ sudo pip3 install numpy --upgrade --ignore-installed
 ## 未來展望
 * 從簡易的管家形改回四腳寵物形，並增加寵物功能
 * 新增藍芽連線，用距離縮短當作喚醒功能
-* 處理好本次失敗的語音控制和手勢控制間互搶控制權導致程式崩潰，可能要寫好Threading
+* 處理好本次失敗的語音控制和手勢控制間互搶控制權導致程式崩潰的問題，可能要從Threading的判斷下手
 * 連接生成式AI，加入語音聊天功能
 
 ## 參考資料
 * [Mediapipe手勢辨識](https://steam.oxxostudio.tw/category/python/ai/ai-mediapipe-gesture.html)
 * [Mediapipe手勢辨識-2](https://www.youtube.com/watch?v=a7B5EZVHHkw)
-* [天氣取得](https://steam.oxxostudio.tw/category/python/spider/forecast.html)
+* [天氣功能和API取得](https://steam.oxxostudio.tw/category/python/spider/forecast.html)
 * [2x16 LCD](https://www.youtube.com/watch?v=DHbLBTRpTWM)
 * [小森平的免費下載音效](https://taira-komori.jpn.org/freesoundtw.html)
 * [stackoverflow幫助排除bug](https://stackoverflow.com/)
