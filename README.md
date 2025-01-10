@@ -86,19 +86,26 @@ sudo pip3 install numpy --upgrade --ignore-installed
 ```
 
 ## 功能
-**請記得將程式中API_KEY換成自己的API，可以參考本文最後天氣功能和API取得**
+**請記得將程式中API_KEY換成自己的API，可以參考本文尾端「天氣功能和API取得」**
 
 接下來以0代表彎曲、1代表伸直，五個數字依序從拇指至小指
 * 手指比「5」，即11111：顯示現在時間
+<img src="/assets/time.png">
 * 手指比「1」，即01000：顯示未來8小時最高溫度和最低溫度，以及降雨機率
+<img src="/assets/weather.png">
 * 手指單比小指，即00001：撥放一小段音樂
+<img src="/assets/play.png">
 * 手指單比中指，即00100：終止音樂
+<img src="/assets/stop.png">
 * 手指比「3」，即01110：開始三分鐘計時器，用來幫泡麵計時 (影片中僅以10秒示範)
+<img src="/assets/timer.png">
 * 手指比「OK」，即00111：在計時器歸零開始不停響時，告知管家關閉鬧鐘
+<img src="/assets/ok.png">
 
 
 ## 影片
 [YT連結](https://youtu.be/iQZb3I2RjcA)
+*背景有家人玩線上遊戲之聲音
 
 
 ## 未來展望
